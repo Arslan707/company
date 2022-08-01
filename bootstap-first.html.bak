@@ -1,0 +1,67 @@
+<html>
+<head>
+<link rel="stylesheet" href="reset.css">
+<link rel="stylesheet" href="bootstrap.min.css">
+<link rel="stylesheet" href="font_os/css/font-awesome.min.css">
+<style>
+.custom-bg-dark{
+background-color:#4F6A85;
+}
+.custom-text-dark{
+color:#4F6A85;
+}
+.custom-bg-light{
+background-color:#F7F8FC;
+}
+.custom-text-light{
+color:#F7F8FC;
+}
+.custom-bg-green{
+background-color:#00BC9C;
+}
+.custom-text-green{
+color:#00BC9C;
+}
+@font-face{
+font-family:sans-serif-bold;
+src:url("SansSerif Bold.ttf");
+}
+.sans-serif-bold{
+font-family:sans-serif-bold;
+}
+@font-face{
+font-family:sans-serif-regular;
+src:url("SansSerif Regular.ttf");
+}
+.sans-serif-regular{
+font-family:sans-serif-regular;
+}
+
+
+
+</style>
+</head>
+
+
+
+<body>
+
+<div class="col-12">
+<div class="row">
+<div class="col-8 mx-auto">
+
+
+
+</div>
+</div>
+</div>
+
+
+
+
+
+
+<script src="jquery-3.6.0.min.js"></script>
+<script src="bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,1040 @@
+<html>
+<link rel="stylesheet" href="reset.css">
+<link rel="stylesheet" href="bootstrap.min.css">
+<link rel="stylesheet" href="font_os/css/font-awesome.min.css">
+<link rel="stylesheet" href="fontawesome-free-6.0.0-web/css/all.min.css">
+<head>
+<style>
+.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto{
+padding:0px;
+margin:0px;
+}
+.row{
+margin:0px;
+padding:0px;
+}
+
+p,h1,h2,h3,h4,h5,h6{
+margin:0px;
+}
+@font-face{
+font-family:opensans;
+src:url("OpenSans.ttf");
+
+}
+.custom-sans{
+font-family:opensans;
+}
+.ecommerce{
+max-height:600px;
+height:auto;
+min-height:300px;
+
+}
+.custom-bg-yellow{
+background-color:#F9B047;
+}
+input[type=text]::placeholder{
+color:#B1B1B1;
+}
+.custom-bg-grey{
+background-color:#D7DCDE;
+}
+.custom-bg-button{
+background-color:#FFFFFF;
+}
+.custom-text-span{
+color:#B1B1B1;
+}
+.yes{
+height:182px;
+
+}
+.custom-text-blue{
+color:#A292F3;
+}
+.ladies{
+max-height:400px;
+height:auto;
+min-height:200px;
+
+}
+.fa-circle-play{
+color: #F9B047;
+}
+span[class=*fa-circle-play]::before{
+
+background:transparent;
+}
+.custom-bg-light{
+background-color:#F3F3F3;
+
+}
+.boss{
+width:250px;
+
+}
+.custom-text-card{
+color:#3F3F3F;
+
+}
+.custom-text-lower{
+color:#019AFF;
+
+}
+.sh{
+box-shadow: 0px 48px 0px 0px #000000c9;
+
+}
+.custom-text-white{
+color:#FFFFFF;
+
+}
+.custom-text-preminum{
+
+color:#797979;
+}
+.custom-color{
+background-color:#FDFDFD;
+
+}
+.custom-bg-upper{
+background-color:#3A3F44;
+}
+.custom-bg-line{
+background-color:#5E5F61;
+
+}
+.custom-text-line{
+color:#5E5F61;
+}
+.custom-info{
+color:#7D7E7F;
+
+}
+.custom-text-yes{
+color:#A0A1A2;
+
+}
+.custom-blue{
+color:#4BA2DB;
+}
+.custom-bg-footer{
+background-color:#F9B047;
+
+}
+.text-footer{
+color:#81786B;
+}
+
+
+</style>
+</head>
+
+
+
+
+<body>
+
+
+<div class="col-12  bg-image" >
+
+<img src="E-Commerce.jpg" class="img-fluid w-100 shadow  ecommerce position-relative"  >
+ 
+
+<img src="yes.png" class="img-fluid position-absolute bg-transparent bg-opacity-10 d-lg-block d-none" style=" left:92px; top: 35px; ">
+<img src="yes.png" class="img-fluid position-absolute bg-transparent bg-opacity-10 d-lg-none d-block" style=" left:32px; top: 35px; ">
+
+<button class="opensans btn ps-3 pe-3 d-lg-block d-none btn-outline-warning position-absolute text-white " data-bs-toggle="modal" data-bs-target="#exampleModal" style="right: 215px; top: 74px;">Login</button>
+<button class="opensans btn ps-3 pe-3 d-lg-none d-block btn-outline-warning position-absolute text-white " data-bs-toggle="modal" data-bs-target="#exampleModal" style="right: 150px; top: 74px;">Login</button>
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title text-primary" id="exampleModalLabel">Sign In Form</h4>
+       
+      </div>
+      <div class=" col-10 mx-auto">
+      <form>
+  <div class=" col-12">
+    <label for="exampleInputEmail1" class="h5 form-label text-primary">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+  </div>
+  <div class="">
+    <label for="exampleInputPassword1" class="h5 text-primary form-label">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1">
+  </div>
+  <div class=" form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<button type="button" class="opensans d-lg-block d-none btn btn-outline-warning  position-absolute text-white " data-bs-toggle="modal" data-bs-target="#exampleModall" style="right: 110px; top: 74px;">Register</button>
+<button type="button" class="opensans d-lg-none d-block btn btn-outline-warning  position-absolute text-white " data-bs-toggle="modal" data-bs-target="#exampleModall" style="right: 40px; top: 74px;">Register</button>
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModall" tabindex="-1" aria-labelledby="exampleModalLabell" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title text-primary" id="exampleModalLabell">Registration Form</h4>
+       
+      </div>
+      <div class=" col-11 mx-auto">
+      <form>
+	  <div class="col-12 pt-2">
+	  <div class="row">
+  <div class=" col-6 pe-3">
+  <div class="col-12">
+    <label for="exampleInputfirst" class="h5  text-primary">First Name</label>
+    <input type="name" class="form-control" placeholder="Last Name" id="exampleInputfirst" >
+  </div>
+  </div>
+    	  <div class="col-6">
+  <div class=" col-12">
+    <label for="exampleInputsecond" class="h5  text-primary">Last Nmae </label>
+    <input type="name" class="form-control" placeholder="Last Name" id="exampleInputsecond" >
+  </div>
+  </div>
+  </div>
+  </div>
+
+<div class="col-12">
+<h5 class=" pt-2 pb-2">Enter Date of birth</h5>
+<div class="row">
+<div class="col-4">
+<div class="col-12">
+<label class="h6">Date</label>
+<select >
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+<option>6</option>
+<option>7</option>
+<option>8</option>
+<option>9</option>
+<option>10</option>
+<option>11</option>
+<option>12</option>
+<option>13</option>
+<option>14</option>
+<option>15</option>
+<option>16</option>
+<option>17</option>
+<option>18</option>
+<option>19</option>
+<option>20</option>
+<option>21</option>
+
+</select>
+
+</div>
+</div>
+
+
+<div class="col-4">
+<div class="col-12">
+<label class="h6">Month</label>
+<select >
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+<option>6</option>
+<option>7</option>
+<option>8</option>
+<option>9</option>
+<option>10</option>
+<option>11</option>
+<option>12</option>
+
+
+</select>
+
+</div>
+</div>
+
+
+
+
+<div class="col-4">
+<div class="col-12">
+<label class="h6">Year</label>
+<select  class="form-control">
+<option>2022</option>
+<option>2021</option>
+<option>2020</option>
+<option>2019</option>
+<option>2018</option>
+<option>2017</option>
+<option>2016</option>
+<option>2015</option>
+<option>2014</option>
+<option>2012</option>
+<option>2011</option>
+<option>2010</option>
+<option>2009</option>
+<option>2008</option>
+<option>2007</option>
+<option>2006</option>
+<option>2005</option>
+<option>2004</option>
+<option>2003</option>
+<option>2002</option>
+<option>2001</option>
+
+</select>
+</div>
+</div>
+
+
+
+</div>
+</div>
+
+<div class="col-12 pt-2">
+<div class="row">
+
+<div class="col-2 ">
+
+<select class="pb-2 pt-1 pe-3 ps-2">
+<option>+92</option>
+<option>+91</option>
+<option>+1</option>
+<option>+86</option>
+<option>+93</option>
+<option>+44</option>
+<option>+61</option>
+<option>+43</option>
+
+
+</select>
+
+
+
+</div>
+
+<div class="col-8 ">
+
+<input class="form-control" type="number">
+
+
+</div>
+
+
+
+
+</div>
+</div>
+
+
+ <div class=" pt-2">
+    <label for="exampleInputEmaill" class="h5 text-primary form-label">Enter Email</label>
+    <input type="email" class="form-control" id="exampleInputEmaill">
+  </div>
+  <div class=" pt-2">
+    <label for="exampleInputPassword1" class="h5 text-primary form-label">Enter Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1">
+  </div>
+  <div class=" pt-2">
+    <label for="exampleInputPassword1" class="h5 text-primary form-label">Enter RePassword</label>
+    <input type="password" class="form-control" id="exampleInputPassword1">
+  </div>
+
+
+<div class="pt-2 pb-4">
+  <button type="submit" class="btn btn-primary ">Submit</button>
+
+</div>
+</form>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<h3 class="text-white fw-light d-lg-block d-none position-absolute" style="top: 38%;left: 26%; letter-spacing: 3px; word-spacing: 4px;"> Best Place to<span class=" text-white fw-bold">  Buy and Sell</span> Products</h3>
+<h3 class="text-white fw-light d-lg-none d-block position-absolute" style="top: 38%;left: 16%; letter-spacing: 3px; word-spacing: 4px;"> Best Place to<span class=" text-white fw-bold">  Buy and Sell</span> Products</h3>
+
+<div class="col-lg-9 col-9  position-absolute" style=" top:49%; left:22%;">
+<div class="row">
+<div class="col-8">
+<input type="text" placeholder="Search what people are looking for" class="ps-lg-5 ps-2 pt-3  pb-3 form-control rounded-pill ">
+</div>
+<div class="col-1 d-lg-block d-none" style="    position: absolute;right: 32%;">
+<button class=" btn rounded-pill btn-lg pt-3 pb-3   pe-4 ps-4 bg-warning"><span class="fa fa-search fa-white pb-1 ps-2 pe-2"></span></button>
+
+</div>
+<div class="col-1 d-block d-lg-none" style="    position: absolute;right: 36%;">
+<button class=" btn rounded-pill btn-lg pt-3 pb-3   pe-4 ps-4 bg-warning"><span class="fa fa-search fa-white pb-1 ps-2 pe-2"></span></button>
+
+</div>
+</div>
+</div>
+
+
+
+</div>
+
+
+<div class="col-12 custom-bg-grey pt-5 pb-5">
+<div class="col-lg-8 col-11 mx-auto">
+<div class="row">
+<div class="col-lg-2 col-3">
+<div class="col-12">
+<div class="row">
+<p class=" text-uppercase fw-bold pt-2"><span class="fa fa-location-dot  pe-2"></span>   select city</p>
+
+
+</div>
+
+</div>
+</div>
+
+<div class="col-lg-5 col-4 pe-4">
+<div class="col-12">
+<input class=" form-control opensans rounded-pill position-relative ps-4" type="text" placeholder="ALL Cities" >
+<span class="fa fa-angle-down position-absolute d-lg-block d-none" style="    bottom: -8%;right: 47.6%;"></span>
+<span class="fa fa-angle-down position-absolute d-block d-lg-none" style="    bottom: 20%;right: 47.6%;"></span>
+
+
+</div>
+</div>
+
+<div class="col-lg-5 col-5 pe-5">
+<div class="col-12">
+<input class=" form-control opensans rounded-pill position-relative ps-4" type="text" placeholder="Select a City First" >
+<span class="fa fa-angle-down position-absolute d-lg-block d-none" style="    bottom: -8%;right: 21.6%;"></span>
+<span class="fa fa-angle-down position-absolute d-block d-lg-none" style="    bottom: 20%;right: 13.6%;"></span>
+
+
+</div>
+</div>
+
+
+
+
+</div>
+</div>
+</div>
+
+
+<div class="col-lg-8 col-12 mx-auto pt-5 pb-5 ps-5">
+
+
+<h3 class="text-center custom-sans fw-bold " style="letter-spacing: 1px;">Find buyers posts by browsing categories</h3>
+
+
+
+</div>
+
+<div class="col-11 mx-auto pt-3 pb-5">
+<div class="row ">
+<div class="col-lg-3 col-6 pb-lg-0 pb-4">
+<div class="col-12 position-relative ps-lg-0 ps-5 pe-lg-0 pe-3">
+<img src="card.jpeg" class="img-fluid yes">
+
+<button class="btn ps-5 pe-5 pt-3 d-lg-block d-none pb-3 position-absolute custom-bg-button border " style="bottom: -19%; left: 15%;" >Trades<span class="custom-text-span">(0)</span></button>
+<button class="btn ps-5 pe-5 pt-3 pb-3 d-block d-lg-none position-absolute custom-bg-button border " style="bottom: -19%; left: 27%;" >Trades<span class="custom-text-span">(0)</span></button>
+
+
+
+</div>
+</div>
+
+<div class="col-lg-3 col-6 pe-5">
+<div class="col-12 position-relative ps-lg-0 ps-4">
+<img src="double.jpeg" class="img-fluid yes">
+
+<button class="btn ps-3 pe-3 pt-3 pb-3 d-lg-block d-none position-absolute custom-bg-button border " style="bottom: -19%; left: 15%;" >Digital Marketing<span class="custom-text-span">(2)</span></button>
+<button class="btn ps-3 pe-3 pt-3 pb-3 position-absolute d-lg-none d-block custom-bg-button border " style="bottom: -19%; left: 25%;" >Digital Marketing<span class="custom-text-span">(2)</span></button>
+
+
+
+</div>
+</div>
+
+
+<div class="col-lg-3 col-6 pt-lg-0 pt-5 pe-4 ps-lg-3 ps-5 ">
+<div class="col-12 position-relative">
+<img src="woman.jpg" class="img-fluid yes">
+
+<button class="btn ps-lg-3 ps-1 pe-lg-3 pe-1 pt-3 pb-3 position-absolute custom-bg-button border " style="bottom: -19%; left: 15%;" >Writing & Translation<span class="custom-text-span">(0)</span></button>
+
+
+
+</div>
+</div>
+
+
+<div class="col-lg-3 col-6 pe-lg-4 pe-5 ps-4 pt-lg-0 pt-5">
+<div class="col-12 position-relative ps-2">
+<img src="pex.jpeg" class="img-fluid yes">
+
+<button class="btn ps-lg-3 ps-1 pe-lg-3 pe-1 pt-3 pb-3 position-absolute custom-bg-button border " style="bottom: -19%; left: 15%;" >Programming & Tech<span class="custom-text-span">(0)</span></button>
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+<div class="col-11 mx-auto pt-5 pb-5">
+<div class="row ">
+<div class="col-lg-3 col-6 pe-lg-5 pe-3 ps-lg-0 ps-5">
+<div class="col-12 position-relative">
+<img src="fun.jpeg" class="img-fluid yes">
+
+<button class="btn ps-4 pe-4 pt-3 pb-3 position-absolute custom-bg-button border " style="bottom: -19%; left: 15%;" >Fun & Lifestyles<span class="custom-text-span">(0)</span></button>
+
+
+
+</div>
+</div>
+
+<div class="col-lg-3 col-6 ps-lg-0 ps-4 pe-lg-5 pe-5">
+<div class="col-12 position-relative ps-lg-0 ps-3">
+<img src="pro.jpeg" class="img-fluid yes">
+
+<button class="btn ps-5 pe-5 pt-3 pb-3 position-absolute custom-bg-button border " style="bottom: -19%; left: 15%;" >Property<span class="custom-text-span">(0)</span></button>
+
+
+
+</div>
+</div>
+
+
+<div class="col-lg-3 col-6 pe-lg-4 pe-2 ps-lg-3 ps-4 pt-lg-0 pt-5">
+<div class="col-12 position-relative pt-lg-0 pt-4 ps-lg-0 ps-4">
+<img src="video.jpg" class="img-fluid yes">
+
+<button class="btn ps-3 pe-3 pt-3 pb-3 position-absolute custom-bg-button border " style="bottom: -19%; left: 15%;" >Video & Animation<span class="custom-text-span">(0)</span></button>
+
+
+
+</div>
+</div>
+
+
+<div class="col-lg-3 col-6 pt-lg-0 pt-5 pe-lg-4 pe-5 ps-lg-4 ps-4">
+<div class="col-12 position-relative pt-lg-0 pt-4 ps-lg-2 ps-3">
+<img src="finan.jpeg" class="img-fluid yes">
+
+<button class="btn ps-5 pe-5 pt-3 pb-3 position-absolute custom-bg-button border " style="bottom: -19%; left: 15%;" >Financial<span class="custom-text-span">(0)</span></button>
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+<div class="col-8 mx-auto pt-4 pb-4">
+
+<h5 class="custom-text-blue text-center" style="letter-spacing: 2px;">Browsing more categories</h5>
+
+
+
+</div>
+
+<div class="col-11 mx-auto pt-3 ps-2 pe-3 pb-5">
+<div class="col-12">
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner pt-5">
+    <div class="carousel-item active">
+    <img src="ladies.jpeg" class="img-fluid rounded-3 w-100 ladies " >
+    </div>
+	
+  <button  class="border-0 bg-transparent carousel-caption mb-5 pb-5" data-bs-toggle="modal" data-bs-target="#exampleModalll"><span class="fa fa-circle-play border-warning fa-5x pb-4"></span></button>
+
+
+<div class="modal fade" id="exampleModalll" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Embedded Video</h5>
+      </div>
+      <div class="modal-footer"> 
+<div class="embed-responsive embed-responsive"  content="width=device-width, initial-scale=1">
+  <iframe class="embed-responsive-item video-fluid"  width="450" height="500" src="https://www.youtube.com/embed/VNs_cCtdbPc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe>
+</div>
+      </div>
+    </div>
+  </div>
+</div>
+  
+  
+  
+  </div>
+</div>
+
+
+
+
+
+
+</div>
+</div>
+
+
+<div class=" col-12 custom-bg-light pt-5 pb-5">
+
+<h2 class="text-center text-capitalize custom-sans display-6">recent advertisment</h2>
+
+<div class="col-11 mx-auto pt-5 ">
+<div class="row">
+<div class="col-lg-3 col-6 pt-4 pe-3 ps-lg-0 ps-4 pb-lg-0 pb-5 border-0 bg-transparent">
+<div class="col-12 ">
+
+<div class="card bg-transparent border-0 rounded-3 border-bottom rounded-top pe-lg-3 pe-2 " >
+  <img src="food.jpeg" class="card-img-top img-fluid pe-3 rounded-3" alt="...">
+  <p class="  custom-text-white" style="    position: absolute; top: 70%; left: 31%;">5 minutes ago</p>
+  <div class="">
+  <div class="card-body rounded-3 bg-white pb-3 pe-2" style="position: absolute; bottom: -43%;  box-shadow: 1px -27px 28px 3px #000000d6;">
+<p class="text-none custom-text-card ps-lg-4 ps-0" > <span class="fa fa-location-dot"></span> All Suburbs,christchurch</p>
+<h5 class=" custom-text-lower fw-bold  ps-lg-3 ps-0">Local Bro, Come to my..</h5>
+  <p class="text-none custom-text-card fw-light ps-lg-3 ps-0 ">Digital Marketing/Local Listing</p>
+  </div>
+  </div>
+</div>
+  
+</div>
+</div>
+
+
+<div class="col-lg-3 col-6 pt-4 ps-lg-3 ps-5 ">
+<div class="col-12 pb-lg-0 pb-5 d-lg-block d-none">
+
+<div class="card bg-transparent border-0 rounded-3 border-bottom rounded-top " style="    width: 298px;  box-sizing: border-box; padding: 1px 26px 16px 7px;">
+  <img src="stock.jpeg" class="card-img-top img-fluid pe-3 rounded-3" alt="..." style="height:180px;">
+  <p class="  custom-text-white" style="    position: absolute; top: 68%; left: 31%;">10 minutes ago</p>
+  <div class="card-body rounded-3 bg-white pb-3 " style="position: absolute; bottom: -41%;  box-shadow: 1px -27px 28px 3px #000000d6;">
+<p class="text-none custom-text-card ps-4" > <span class="fa fa-location-dot"></span> All Suburbs,christchurch</p>
+<h5 class=" custom-text-lower fw-bold ps-4">Analytics Bro please</h5>
+  <p class=" custom-text-card fw-light  ps-1">Digital Marketing/Web Analytics</p>
+  </div>
+</div>
+  
+</div>
+
+<div class="col-12 pb-lg-0 pb-5 d-block d-lg-none">
+
+<div class="card bg-transparent border-0 rounded-3 border-bottom rounded-top " style="    width: 281px;  box-sizing: border-box; padding: 1px 26px 16px 7px;">
+  <img src="stock.jpeg" class="card-img-top img-fluid pe-3 rounded-3" alt="..." style="height:180px;">
+  <p class="  custom-text-white" style="    position: absolute; top: 68%; left: 31%;">10 minutes ago</p>
+  <div class="card-body rounded-3 bg-white pb-3 " style="position: absolute; bottom: -41%;  box-shadow: 1px -27px 28px 3px #000000d6;">
+<p class="text-none custom-text-card ps-4" > <span class="fa fa-location-dot"></span> All Suburbs,christchurch</p>
+<h5 class=" custom-text-lower fw-bold ps-4">Analytics Bro please</h5>
+  <p class=" custom-text-card fw-light  ps-1">Digital Marketing/Web Analytics</p>
+  </div>
+</div>
+  
+</div>
+
+
+
+
+</div>
+
+
+<div class="col-lg-3 col-6 pt-lg-4 pt-5 ps-lg-3 ps-0 pe-lg-0 pe-5">
+<div class="col-12 pt-lg-0 pt-5 pe-lg-0 pe-3">
+
+<div class="card bg-transparent border-0 rounded-3 border-bottom rounded-top pe-lg-0 pe-2" style="    width: 298px;  box-sizing: border-box; padding: 1px 0px 16px 28px;">
+  <img src="ganj.jpeg" class="card-img-top img-fluid pe-3 rounded-3" alt="..." style="height:180px;">
+  <p class="  custom-text-white" style="    position: absolute; top: 70%; left: 31%;">12 minutes ago</p>
+  <div class="card-body rounded-3 bg-white pb-3 " style="position: absolute; bottom: -41%;  box-shadow: 1px -27px 28px 3px #000000d6;">
+<p class="text-none custom-text-card ps-lg-4 ps-4" > <span class="fa fa-location-dot"></span> All Suburbs,christchurch</p>
+<h5 class=" custom-text-lower fw-bold ps-lg-4 ps-3">Well I need someone</h5>
+  <p class=" custom-text-card fw-light  ps-5">Business/Presentation</p>
+  </div>
+</div>
+  
+</div>
+
+
+
+
+
+</div>
+
+<div class="col-lg-3 col-6 pt-lg-4 pt-5 ps-lg-3 ps-4">
+<div class="col-12 pt-lg-0 pt-5">
+
+<div class="card bg-transparent border-0 rounded-3 border-bottom rounded-top  " style="    width: 298px;  box-sizing: border-box; padding: 1px 0px 16px 28px;">
+  <img src="song.jpeg" class="card-img-top img-fluid pe-3 rounded-3" alt="...">
+  <p class="  custom-text-white" style="    position: absolute; top: 64%; left: 31%;">12 minutes ago</p>
+  <div class="card-body rounded-3 bg-white pb-3 pe-2 " style="position: absolute; bottom: -26%;  box-shadow: 1px -27px 28px 3px #000000d6;">
+<p class="text-none custom-text-card " > <span class="fa fa-location-dot"></span> Kennedys Bush,christchurch</p>
+<h5 class=" custom-text-lower fw-bold ">Need a metal Singer for</h5>
+  <p class=" custom-text-card fw-light  ">Music & Audio/Singer-SongWriting</p>
+  </div>
+</div>
+  
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+</div>
+
+
+<div class="custom-bg-light pt-5">
+
+<h2 class="text-center text-capitalize custom-sans  pt-4 display-6">premium advertisment</h2>
+
+</div>
+
+<div class="custom-bg-light pt-5 ps-5">
+
+<h2 class=" text-capitalize custom-sans  custom-text-preminum  pt-4 ps-2 display-4">no premium post</h2>
+
+</div>
+<div class="custom-bg-light pt-5 ps-5">
+
+<h2 class=" text-capitalize custom-sans  text-center pt-4 ps-2 display-6">most viewed advertisment</h2>
+
+</div>
+
+
+<div class=" col-12 custom-bg-light pt-5 ">
+
+
+
+<div class="col-11 mx-auto ">
+<div class="row">
+<div class="col-lg-3 col-6 pt-4 pe-lg-4 pe-1 ps-lg-0 ps-2">
+<div class="col-12 ">
+
+<div class="card bg-transparent border-0 rounded-3 border-bottom rounded-top pe-3 ps-lg-0 ps-2" >
+  <img src="game.jpeg" class="card-img-top img-fluid pe-3 rounded-3" alt="..." style="height:190px;">
+  <p class="  custom-text-white" style="    position: absolute; top: 70%; left: 31%;">35 Views</p>
+  <div class="">
+  <div class="card-body rounded-3 bg-white pb-3 pe-2 " style="position: absolute; bottom: -43%;  box-shadow: 1px -27px 28px 3px #000000d6;">
+<p class="text-none custom-text-card ps-4 fw-light" > <span class="fa fa-location-dot"></span> All Suburbs,christchurch</p>
+<h5 class=" custom-text-lower fw-bold  ps-3">Analytics Bro please</h5>
+  <p class="text-none custom-text-card fw-light ps-3 ">Digital Marketing/Web Analytics</p>
+  </div>
+  </div>
+</div>
+  
+</div>
+</div>
+
+
+<div class="col-lg-3 col-6 pt-4 ps-3">
+<div class="col-12 ">
+
+<div class="card bg-transparent border-0 rounded-3 border-bottom rounded-top " style="    width: 298px;  box-sizing: border-box; padding: 1px 26px 16px 7px;">
+  <img src="mic.jpeg" class="card-img-top img-fluid pe-3 rounded-3" alt="..." style="height:180px;">
+  <p class="  custom-text-white" style="    position: absolute; top: 68%; left: 31%;">25  Views</p>
+  <div class="card-body rounded-3 bg-white pb-3 pe-2" style="position: absolute; bottom: -38%;  box-shadow: 1px -27px 28px 3px #000000d6;">
+<p class="text-none custom-text-card ps-1" > <span class="fa fa-location-dot"></span> Kennedys Bush,christchurch</p>
+<h5 class=" custom-text-lower fw-bold ">Need a metal Singer for </h5>
+  <p class=" custom-text-card fw-light  ">Music &  Audio/Singer-Song</p>
+  </div>
+</div>
+  
+</div>
+</div>
+
+
+<div class="col-lg-3 col-6 pt-4 ps-3 d-lg-block d-none">
+<div class="col-12 ">
+
+<div class="card bg-transparent border-0 rounded-3 border-bottom rounded-top " style="    width: 298px;  box-sizing: border-box; padding: 1px 0px 16px 28px;">
+  <img src="smile.jpeg" class="card-img-top img-fluid pe-3 rounded-3" alt="..." style="height:180px;">
+  <p class="  custom-text-white" style="    position: absolute; top: 67%; left: 37%;">35 Views</p>
+  <div class="card-body rounded-3 bg-white pb-3 " style="position: absolute; bottom: -38%;  box-shadow: 1px -27px 28px 3px #000000d6;">
+<p class="text-none custom-text-card ps-4" > <span class="fa fa-location-dot"></span> All Suburbs,christchurch</p>
+<h5 class=" custom-text-lower fw-bold ps-4">Well I need someone</h5>
+  <p class=" custom-text-card fw-light  ps-5">Business/Presentation</p>
+  </div>
+</div>
+  
+</div>
+</div>
+
+<!-- Real-->
+<div class="col-lg-3 col-6 pt-lg-4 pt-5 ps-3 d-lg-none d-block">
+<div class="col-12 pt-lg-0 pt-5">
+
+<div class="card bg-transparent border-0 rounded-3 border-bottom rounded-top " style="    width: 298px;  box-sizing: border-box; padding: 6px 34px 10px 0px;">
+  <img src="smile.jpeg" class="card-img-top img-fluid pe-3 rounded-3" alt="..." style="height:180px;">
+  <p class="  custom-text-white" style="    position: absolute; top: 67%; left: 37%;">35 Views</p>
+  <div class="card-body rounded-3 bg-white pb-3 " style="position: absolute; bottom: -38%;  box-shadow: 1px -27px 28px 3px #000000d6;">
+<p class="text-none custom-text-card ps-4" > <span class="fa fa-location-dot"></span> All Suburbs,christchurch</p>
+<h5 class=" custom-text-lower fw-bold ps-4">Well I need someone</h5>
+  <p class=" custom-text-card fw-light  ps-5">Business/Presentation</p>
+  </div>
+</div>
+  
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+<!--REal-->
+
+<div class="col-lg-3 col-6 pt-4 ps-3 d-lg-block d-none">
+<div class="col-12 ">
+
+<div class="card bg-transparent border-0 rounded-3 border-bottom rounded-top " style="    width: 298px;  box-sizing: border-box; padding: 1px 0px 16px 28px;">
+  <img src="mark.jpeg" class="card-img-top img-fluid pe-3 rounded-3" alt="...">
+  <p class="  custom-text-white" style="    position: absolute; top: 58%; left: 34%;">15 Views</p>
+  <div class="card-body rounded-3 bg-white pb-3 pe-2 " style="position: absolute; bottom: -22%;  box-shadow: 1px -27px 28px 3px #000000d6;">
+<p class="text-none custom-text-card ps-4" > <span class="fa fa-location-dot"></span> All Subrubs,christchurch</p>
+<h5 class=" custom-text-lower fw-bold ps-3">Local Bro come to my..</h5>
+  <p class=" custom-text-card fw-light  ps-4">Digital Marketing/Local Listing</p>
+  </div>
+</div>
+  
+</div>
+</div>
+<!--Media-->
+
+<div class="col-lg-3 col-6 pt-5 ps-3 d-lg-none d-block">
+<div class="col-12 pt-5">
+
+<div class="card bg-transparent border-0 rounded-3 border-bottom rounded-top " style="    width: 298px;  box-sizing: border-box; padding: 1px 22px 8px 14px;;">
+  <img src="mark.jpeg" class="card-img-top img-fluid pe-3 rounded-3" alt="...">
+  <p class="  custom-text-white" style="    position: absolute; top: 58%; left: 34%;">15 Views</p>
+  <div class="card-body rounded-3 bg-white pb-3 pe-2 " style="position: absolute; bottom: -22%;  box-shadow: 1px -27px 28px 3px #000000d6;">
+<p class="text-none custom-text-card ps-4" > <span class="fa fa-location-dot"></span> All Subrubs,christchurch</p>
+<h5 class=" custom-text-lower fw-bold ps-3">Local Bro come to my..</h5>
+  <p class=" custom-text-card fw-light  ps-4">Digital Marketing/Local Listing</p>
+  </div>
+</div>
+  
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+</div>
+
+<div class="custom-bg-light pt-5 ps-5">
+
+<h2 class=" text-capitalize custom-sans  text-center pt-5 ps-2 display-6">most offedred advertisment</h2>
+
+</div>
+
+
+<div class="col-12 custom-bg-light pt-5 pb-5">
+<div class="col-11 ps-4 pb-5">
+<div class="col-3 pt-4 ps-3 pb-4">
+<div class="col-12 ">
+
+<div class="card bg-transparent border-0 rounded-3 border-bottom  " style="    width: 298px;  box-sizing: border-box; padding: 1px 26px 16px 7px;">
+  <img src="yell.jpeg" class="card-img-top img-fluid pe-3  rounded-end" alt="..." style="height:180px;">
+  <p class="  custom-text-white" style="    position: absolute; top: 68%; left: 31%;">25  Views</p>
+  <div class="card-body rounded-3 bg-white pb-3 pe-2" style="position: absolute; bottom: -38%;  box-shadow: 1px -27px 28px 3px #000000d6;">
+<p class="text-none custom-text-card ps-1" > <span class="fa fa-location-dot"></span> Kennedys Bush,christchurch</p>
+<h5 class=" custom-text-lower fw-bold ">Need a metal Singer for </h5>
+  <p class=" custom-text-card fw-light  ">Music &  Audio/Singer-Song</p>
+  </div>
+</div>
+  
+</div>
+</div>
+
+
+</div>
+
+
+</div>
+
+<div class="col-12 custom-color pt-5 pb-4">
+
+
+
+</div>
+
+<div class="col-12 pt-5 custom-bg-upper">
+<div class="col-11 mx-auto pt-4 pb-5">
+<div class="row">
+<div class="col-8  pt-1 ps-5 border-end border-secondary">
+<p class="custom-info">Information</p>
+<p class="custom-text-yes">Icons made by<span class="custom-blue"> Freepik </span>from<span class="custom-blue"> www.flaticon.pk </span>is licensed by <span class="custom-blue"> CC 3.0 BY </span></p>
+<p class="custom-text-yes"><span class="custom-blue">Light </span>& <span class="custom-blue">Intitution </span> by <span class="custom-blue">Notifactions Sound </span> is licensed under <span class="custom-blue"> CC 4.0 BY </span></p>
+<p class="custom-text-yes">If you would like to send us an enquiry, you can reach us by sending an email to</p>
+<p class="custom-text-yes"><span class="custom-blue">john.frades@markeetz.co.nz </span>/ <span class="custom-blue"> joon.pan@markeetz.co.nz </span></p>
+<p class="custom-text-yes">This site is best viewed using Dekstop</p>
+
+
+</div>
+
+
+<div class="col-4  pt-1 border-start border-secondary">
+<div class="row">
+<div class="col-7">
+
+</div>
+
+<div class="col-4  pb-5 ">
+<img src="yes.png" class="img-fluid" style="width:91px;">
+
+
+</div>
+
+
+</div>
+<div class="col-11 pt-5">
+<div class="row">
+<div class="col-8">
+
+</div>
+
+<div class="col-4   ">
+<span class="fa-brands fa-facebook-f text-white pe-4"></span><span class="fa-brands fa-twitter text-white"></span>
+
+
+</div>
+
+
+</div>
+</div>
+
+</div>
+
+
+
+
+
+</div>
+</div>
+</div>
+
+<div class="col-12 custom-bg-footer pt-4 pb-4">
+<div class="col-10 mx-auto">
+<div class="row">
+<div class="col-8">
+<a href="#" class="text-footer text-decoration-none ps-lg-0 ps-2">Home</a>
+<a href="#" class="text-footer text-decoration-none ps-lg-5 ps-2">Privacy Policy</a>
+<a href="#" class="text-footer text-decoration-none ps-lg-5 ps-2">Terms of Service</a>
+<a href="#" class="text-footer text-decoration-none ps-lg-5 ps-2">FAQ</a>
+
+</div>
+
+
+<div class="col-4 ps-lg-5 ps-0">
+<a href="#" class="text-footer text-decoration-none ps-5">Markeetz Ltd. © 2019, Ecommerce Site</a>
+
+</div>
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+<script src="jquery-3.6.0.min.js"></script>
+<script src="bootstrap.bundle.min.js"></script>
+<script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+
+
+
+</body>
+</html>
